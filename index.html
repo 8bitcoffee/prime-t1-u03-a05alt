@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Group question 6 - Alt solution</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>Solving group question 6 using objects and functions</h1>
+        <div>
+            <div>
+                <p>
+                    <br>
+                    <h2>#6 (STRETCH) Greatest Position Distance</h2>
+                    <br>
+                    <ol>
+                        <li>Create a largish array of numbers, including at least two different numbers that repeat<br>
+                            (e.g. 0, 2, 2, 7, 4, 1, 7, 8)</li><br>
+                        <li>Write a loop that finds the greatest position distance between repeating numbers in your array.<br>
+                            In the above example, the 2's have a distance of 1, while the 7's have a distance of 3,<br>
+                            so the greatest position distance for that array is 3.</li><br>
+                        <li>Output the array and its greatest position distance</li><br>
+                        <li>Input must be an array of length greater than 2 and contain only numbers</li>
+                    </ol>
+                   
+                    <h4>Example output:</h4>
+
+                    <ul>5, 1, 8, 2, 9, 1, 4, 5, 0</ul>
+                    <ul>Greatest Position Distance: 7</ul>
+                </p>
+            </div>
+            <br>
+            <br>
+            <div>
+                <!-- <h5>See console for output.</h5> -->
+                
+                <label for="userInput">Enter numbers here!</label><br>
+                <label for="userInput">Seperate by a comma</label><br>
+                <br>
+                <input type="text" id="userInput" name="userInput" placeholder="1,2,3,4,5,6"><br><br>
+                <input type="submit" value="Submit" onclick="findGreatestDistance()">
+                
+            </div>
+            <br>
+            <div id="output">
+                <!-- innerHTML -->
+            </div>
+        </div>
+    </body>
+</html>
